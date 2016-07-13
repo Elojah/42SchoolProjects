@@ -1,0 +1,22 @@
+{
+    "folders":
+    [
+        {
+            "path": "~/code/meuh/42/ft_p/hdezier/client"
+        }
+    ],
+
+    "settings":
+    {
+        "cc_include_options":
+        [
+            "-D_DBG_",
+            "-I${project_path}/include",
+            "-I${project_path}/libft/include",
+             "-Wall",
+             "-Werror",
+             "-Wextra",
+             "-v"
+        ]
+    }
+}

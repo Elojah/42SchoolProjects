@@ -1,0 +1,42 @@
+# Scene:
+# reflection test
+
+# Size:
+# width
+# heigh
+
+win_size 1024 768
+#img_size 1024 768
+img_size 512 384
+
+# Cam:
+# rotation: x*1000 y*1000 z*1000 |
+# direction: x y z |
+# origin: x y z
+
+cam_1 0 0 0 | 0 0 0 | 0 0 0
+cam_2 0 700 0 | 0 0 0 | -200 0 0
+cam_3 -700 0 0 | 0 0 0 | 0 -200 0
+cam_4 -1570 0 0 | 0 0 0 | 0 -500 400
+
+# Light:
+# origin: x y z |
+# color: red green blue
+
+light_1 400 -700 -900 | 200 200 200
+
+# Object:
+# o: 0=plane, 1=sphere, 2=cylinder, 3=cone, 4=torus, 5=disk, 6=triangle
+# t: 0=none, 1=inverse, 2=reflection, 3=transparency
+# type: ot |
+# rotation: x*1000 y*1000 z*1000 |
+# scale: x y z |
+# translation: x y z |
+# color: red green blue |
+# constant: ambiant*100 diffuse*100 specular*100 |
+# texture: path.xpm
+
+obj_sphere 13 | 600 0 0 | 100 100 100 | 0 0 425 | 5 255 255 | 49 9 0
+obj_sphere 13 | 600 0 0 | 100 100 100 | -50 0 500 | 255 5 255 | 49 9 0
+obj_sphere 13 | 600 0 0 | 100 100 100 | 50 0 500 | 255 255 5 | 49 9 0
+obj_plane 0 | -1570 0 0 | 1 1 -1 | 0 500 0 | 0 200 0 | 5 99 1 | tex/wall_3.xpm

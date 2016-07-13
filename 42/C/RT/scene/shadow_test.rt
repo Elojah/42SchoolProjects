@@ -1,0 +1,44 @@
+# Scene:
+# shadow test
+
+# Size:
+# width
+# heigh
+
+win_size 640 480
+img_size 640 480
+
+# Cam:
+# rotation: x*1000 y*1000 z*1000 |
+# direction: x y z |
+# origin: x y z
+
+cam_1 -600 0 0 | 0 0 0 | 0 -500 -100
+
+# Light:
+# origin: x y z |
+# color: red green blue
+
+light_1 0 0 0 | 255 255 255
+light_2 0 10 0 | 255 255 255
+light_3 0 20 0 | 255 255 255
+light_4 0 30 0 | 255 255 255
+
+# Object:
+# o: 0=plane, 1=sphere, 2=cylinder, 3=cone, 4=torus, 5=mobius, 6=triangle
+# t: 0=none, 1=inverse, 2=reflection, 3=transparency
+# type: ot |
+# rotation: x*1000 y*1000 z*1000 |
+# scale: x y z |
+# translation: x y z |
+# color: red green blue |
+# constant: ambiant*100 diffuse*100 specular*100 |
+# texture: path.xpm
+
+object_sphere 10 | 0 0 0 | 50 50 50 | 100 0 350 | 0 0 255 | 9 99 40
+object_sphere 10 | 0 0 0 | 50 50 50 | 100 -200 350 | 0 0 255 | 9 99 40
+object_plane 00 | 3140 0 0 | 1 1 -1 | 0 0 900 | 0 150 150 | 9 99 40
+object_plane 00 | 0 0 0 | 1 1 -1 | 0 0 -800 | 0 150 150 | 9 99 40
+object_plane 00 | -1570 0 0 | 1 1 -1 | 0 900 0 | 0 200 200 | 9 99 40
+object_plane 00 | 0 1570 0 | 1 1 -1 | 900 0 0 | 200 200 0 | 9 99 40
+object_plane 00 | 0 -1570 0 | 1 1 -1 | -900 0 0 | 200 00 0 | 9 99 40

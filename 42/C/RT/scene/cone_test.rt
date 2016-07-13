@@ -1,0 +1,45 @@
+# Scene: 
+# cone test
+
+# Size:
+# width
+# height
+
+win_size 1024 768
+img_size 512 384
+
+# Cam:
+# rotation: x*1000 y*1000 z*1000 |
+# direction: x y z |
+# origin: x y z
+
+cam_1 0 0 0 | 0 0 0 | 0 0 -1200
+cam_2 0 -900 0 | 0 0 0 | 1200 0 0
+cam_3 0 900 0 | 0 0 0 | -1200 0 0
+cam_4 0 3140 0 | 0 0 0 | 0 0 1500
+
+# Light:
+# origin: x y z |
+# color: red green blue
+
+light_1 0 0 -1200 | 200 200 200
+
+# Object:
+# o: 0=plane, 1=sphere, 2=cylinder, 3=cone, 4=torus, 5=mobius, 6=triangle
+# t: 0=none, 1=inverse, 2=reflection, 3=transparency
+# type: ot |
+# rotation: x*1000 y*1000 z*1000 |
+# scale: x y z |
+# translation: x y z |
+# color: red green blue |
+# constant: ambiant*100 diffuse*100 specular*100 |
+# texture: path.xpm
+
+object_cone 30 | 1570 0 0 | 1 1 5 | 0 0 0 | 255 255 255 | 5 99 40
+object_cone 30 | 1570 1570 0 | 1 1 -4 | -500 0 500 | 255 255 155 | 5 99 40
+object_sphere 10 | 1570 0 0 | 100 100 100 | 200 0 0 | 255 255 255 | 5 99 40
+object_plane 00 | -3140 0 0 | 1 1 -1 | 0 0 1500 | 0 255 255 | 5 99 40
+object_plane 00 | 0 1570 0 | 1 1 -1 | 1500 0 0 | 0 255 0 | 5 99 40
+object_plane 00 | 0 -1570 0 | 1 1 -1 | -1500 0 0 | 0 255 0 | 5 99 40
+object_plane 00 | -1570 0 0 | 1 1 -1 | 0 1500 0 | 0 255 0 | 5 99 40
+/object_plane 00 | 0 0 0 | 1 1 -1 | 0 0 -1500 | 0 255 0 | 5 99 40

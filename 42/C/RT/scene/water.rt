@@ -1,0 +1,52 @@
+# Scene:
+# water
+
+# Size:
+# width
+# heigh
+
+win_size 1920 960
+img_size 960 480
+
+# Cam:
+# rotation: x*1000 y*1000 z*1000 |
+# direction: x y z |
+# origin: x y z
+
+cam_1 0 0 0 | 0 0 0 | 0 0 -500
+cam_2 -600 -600 0 | 0 0 0 | 200 -250 0
+cam_3 -600 600 0 | 0 0 0 | -200 -250 0
+cam_4 0 0 0 | 0 0 0 | 0 0 -200
+
+# Light:
+# origin: x y z |
+# color: red green blue
+
+light_1 0 -100 0 | 255 255 255
+
+# Object:
+# o: 0=plane, 1=sphere, 2=cylinder, 3=cone, 4=torus, 5=disk, 6=triangle
+# t: 0=none, 1=inverse, 2=reflection, 3=transparency, 4=subtract, 5=refraction
+# type: ot |
+# rotation: x*1000 y*1000 z*1000 |
+# scale: x y z |
+# translation: x y z |
+# color: red green blue |
+# constant: ambiant*100 diffuse*100 specular*100 |
+# texture: path.xpm
+
+object_plane 00 | -1570 0 0 | 1 1 -1 | 2000 400 -400 | 0 255 0 | 10 90 50 | tex/water_1.xpm
+/object_plane 05 | -1570 0 0 | 1 1 -1 | 2000 50 -400 | 0 255 255 | 0 90 50 | tex/water_1.xpm
+object_triangle 65 1.33 | 0 | 0 | 0 0 0 | 1900 50 -1900 | -1900 50 1900 | -1900 50 -1900 | 0 -1 0 | 100 200 200 | 5 90 0
+object_triangle 65 1.33 | 0 | 0 | 0 0 0 | 1900 50 -1900 | -1900 50 1900 | 1900 50 1900 | 0 -1 0 | 100 200 200 | 5 90 0
+
+object_cylinder 20 | 1570 0 0 | 100 100 -1 | 400 0 200 | 255 255 255 | 25 99 99
+object_mercury 10 | 0 0 0 | 99 99 99 | 100 0 400 | 0 | 5 99 20 | tex/mercury.xpm
+object_venus 10 | 0 0 0 | 99 99 99 | -100 0 400 | 0 | 5 99 20 | tex/venus.xpm
+object_earth 10 | 0 0 0 | 99 99 99 | -200 0 500 | 0 | 5 99 20 |tex/earth.xpm
+object_mars 10 | 0 0 0 | 99 99 99 | 200 0 500 | 0 | 5 99 20 | tex/mars.xpm
+object_jupiter 10 | 0 0 0 | 99 99 99 | 300 0 600 | 0| 5 99 20 | tex/jupiter.xpm
+object_saturn 10 | 0 0 0 | 99 99 99 | -300 0 600 | 0 | 5 99 20 | tex/saturn.xpm
+object_uranus 10 | 0 0 0 | 99 99 99 | 400 0 700 | 0 | 5 99 20 | tex/uranus.xpm
+object_neptune 10 | 0 0 0 | 99 99 99 | -400 0 700 | 0 | 5 99 20 | tex/neptune.xpm
+

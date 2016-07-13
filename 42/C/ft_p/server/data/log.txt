@@ -1,0 +1,9 @@
+[/]Log initialization...
+[/]Reading msg...
+[/]Received:
+[/]test
+[/]Command is not valid
+[/]Reading msg...
+[/]Received:
+[/]quit
+[/]Client left

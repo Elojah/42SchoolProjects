@@ -1,0 +1,20 @@
+{
+    "folders":
+    [
+        {
+            "path": "~/code/meuh/42/ExpertSystem/hdezier2.0"
+        }
+    ],
+
+    "settings":
+    {
+        "cc_include_options":
+        [
+            "-D_DBG_",
+            "-I${project_path}/include",
+             "-Wall",
+             "-Werror",
+             "-Wextra",
+        ]
+    }
+}

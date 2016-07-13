@@ -1,0 +1,4 @@
+calc.cmo :
+calc.cmx :
+main.cmo : calc.cmo
+main.cmx : calc.cmx

@@ -1,0 +1,49 @@
+# Scene:
+# solar system
+
+# Size:
+# width
+# heigh
+
+win_size 1920 960
+img_size 960 960
+
+# Cam:
+# rotation: x*1000 y*1000 z*1000 |
+# direction: x y z |
+# origin: x y z
+
+cam_1 0 0 0 | 0 0 0 | 900 0 -2000
+cam_2 0 1500 0 | 0 0 0 | 1100 0 -10
+#cam_3 -100 500 0 | 0 0 0 | 0100 -200 -3000
+
+# Light:
+# origin: x y z |
+# color: red green blue
+
+light_1 0 0 0 | 255 227 100
+#light_2 900 0 -9000
+#light_3 0 0 0
+
+# Object:
+# o: 0=plane, 1=sphere, 2=cylinder, 3=cone, 4=torus, 5=mobius, 6=triangle
+# t: 0=none, 1=inverse, 2=reflection, 3=transparency
+# type: ot |
+# rotation: x*1000 y*1000 z*1000 |
+# scale: x y z |
+# translation: x y z |
+# color: red green blue |
+# constant: ambiant*100 diffuse*100 specular*100 |
+# texture: path.xpm
+
+object_sun 10 | 0 0 0 | 700 700 700 | 0 0 0 | 0 | 100 99 1 | tex/sun.xpm
+object_mercury 10 | 0 0 0 | 3 3 3 | 900 0 0 | 0 | 5 99 20 | tex/mercury.xpm
+object_venus 10 | 0 0 0 | 6 6 6 | 1100 0 0 | 0 | 5 99 20 | tex/venus.xpm
+object_earth 10 | 0 0 0 | 7 7 7 | 1300 0 0 | 0 | 5 99 20 |tex/earth.xpm
+object_mars 10 | 0 0 0 | 4 4 4 | 1500 0 0 | 0 | 5 99 20 | tex/mars.xpm
+object_jupiter 10 | 0 0 0 | 72 72 72 | 1700 0 0 | 0| 5 99 20 | tex/jupiter.xpm
+object_saturn 10 | 0 0 0 | 60 60 60 | 1900 0 0 | 0 | 5 99 20 | tex/saturn.xpm
+object_uranus 10 | 0 0 0 | 26 26 26 | 2100 0 00 | 0 | 5 99 20 | tex/uranus.xpm
+object_neptune 10 | 0 0 0 | 25 25 25 | 2300 0 00 | 0 | 5 99 20 | tex/neptune.xpm
+obj_plane 00 | 3140 0 0 | 1 1 -1 | 0 0 3500 | 0 | 5 99 1 | tex/sky.xpm
+obj_plane 00 | 0 1570 0 | 1 1 -1 | 3500 0 0 | 0 | 5 99 1 | tex/sky.xpm

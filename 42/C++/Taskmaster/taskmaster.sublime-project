@@ -1,0 +1,24 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/leeios/.config/sublime-text-3/Packages/C++ Starting Kit"
+		}
+	],
+	"settings":
+	{
+		"cc_include_options":
+		[
+			"-I${project_path}/include",
+			"-I${project_path}/json/include",
+			"-isystem",
+			"/usr/include",
+			"-isystem",
+			"/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed",
+			"-isystem",
+			"/usr/lib/llvm-3.6/lib/clang/3.6.0/include",
+			"-isystem",
+			"/usr/include"
+		]
+	}
+}

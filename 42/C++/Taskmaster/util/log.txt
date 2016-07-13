@@ -1,0 +1,31 @@
+Init UINcurses ... 
+Init UINcurses ... DONE
+Read config file ./config/programs.conf
+File syntax:	OK
+Setting process params...
+Launch:_____________________________
+Redirect stdout to ./util/thor.txt
+Redirect stderr to ./util/thor.txt
+cmd:	/bin/cat
+numprocs:	1
+umask:	18
+workingdir:	/tmp
+autostart:	1
+autorestart:	unexpected
+<<<<<<< HEAD:42/Taskmaster/hdezier-rbernand/util/log.txt
+exitcodes:	6848752
+=======
+exitcodes:	1769238639
+>>>>>>> 3fb45b870d19ae0d4347e66467354b39b6a86867:42/Taskmaster/hdezier-erobert/util/log.txt
+startretries:	3
+starttime:	5
+stopsignal:	TERM
+stoptime:	10
+stdout:	./util/thor.txt
+stderr:	./util/thor.txt
+env:	
+STARTED_BY:	taskmaster
+ANSWER:	42
+Command /bin/cat executed
+Exit code:
+_____________________________4357107

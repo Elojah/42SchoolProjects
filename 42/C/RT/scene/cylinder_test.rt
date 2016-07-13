@@ -1,0 +1,47 @@
+# Scene:
+# cylinder test
+
+# Size:
+# width
+# height
+
+win_size 1024 768
+img_size 512 384
+
+# Cam:
+# rotation: x*1000 y*1000 z*1000 |
+# direction: x y z |
+# origin: x y z
+
+cam_1 0 0 0 | 0 0 0 | 0 0 0
+cam_2 -600 -600 0 | 0 0 0 | 200 -250 0
+cam_3 -600 600 0 | 0 0 0 | -200 -250 0
+cam_4 0 3140 0 | 0 0 0 | 0 0 700
+
+# Light:
+# origin: x y z |
+# color: red green blue
+
+/light_1 0 -700 400 | 200 200 200
+light_2 300 100 0 | 200 200 200
+
+# Object:
+# o: 0=plane, 1=sphere, 2=cylinder, 3=cone, 4=torus, 5=disk, 6=triangle
+# t: 0=none, 1=inverse, 2=reflection, 3=transparency
+# type: ot |
+# rotation: x*1000 y*1000 z*1000 |
+# scale: x y z |
+# translation: x y z |
+# color: red green blue |
+# constant: ambiant*100 diffuse*100 specular*100 |
+# texture: path.xpm
+
+object_cylinder 20 | 1570 0 0 | 100 100 200 | 0 0 400 | 200 0 0 | 9 99 90
+object_cylinder 20 | 1570 0 0 | 100 100 -1 | 300 400 400 | 200 0 0 | 69 99 90 | tex/wall_5.xpm | tex/wall_5.n.xpm
+object_disk 51 | 1570 0 0 | 100 100 100 | 0 200 400 | 200 200 0 | 9 99 90
+object_disk 50 | 1570 0 0 | 100 100 100 | 0 -200 400 | 200 200 0 | 9 99 90
+object_plane 00 | 3140 0 0 | 1 1 -1 | 0 0 700 | 0 255 0 | 9 99 99
+object_plane 00 | 0 1570 0 | 1 1 -1 | 700 0 0 | 0 255 0 | 9 99 99
+object_plane 00 | 0 -1570 0 | 1 1 -1 | -700 0 0 | 0 255 0 | 9 99 99
+object_plane 00 | -1570 0 0 | 1 1 -1 | 0 700 0 | 0 255 0 | 9 99 99
+object_plane 00 | 0 0 0 | 1 1 -1 | 0 0 -700 | 0 255 0 | 9 99 99

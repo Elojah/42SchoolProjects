@@ -1,0 +1,57 @@
+# Scene:
+# a lot
+
+# Size:
+# width
+# height
+
+win_size 1920 1024
+img_size 960 512
+
+# Cam:
+# rotation: x*1000 y*1000 z*1000 |
+# direction: x y z |
+# origin: x y z
+
+#cam_1 0 0 0 | 0 0 500 | 0 0 0
+cam_1 0 0 0 | 0 0 0 | 0 0 0
+cam_2 600 0 0 | 0 0 0 | 0 500 0
+cam_3 0 600 0 | 0 0 0 | -200 0 0
+cam_4 0 3140 0 | 0 0 0 | 0 0 500
+
+# Light:
+# origin: x y z |
+# color: red green blue
+
+light_1 0 0 0 | 250 250 250
+light_2 0 50 0 | 0 250 0
+
+# Object:
+# o: 0=plane, 1=sphere, 2=cylinder, 3=cone, 4=torus, 5=disk, 6=triangle
+# t: 0=none, 1=inverse, 2=reflection, 3=transparency
+# type: ot |
+# rotation: x*1000 y*1000 z*1000 |
+# scale: x y z |
+# translation: x y z |
+# color: red green blue |
+# constant: ambiant*100 diffuse*100 specular*100 |
+# texture: path.xpm
+
+object_sphere 10 | 20 0 400 | 100 150 100 | 0 0 700 | 0 0 255 | 5 99 40
+object_sphere 10 | 0 0 0 | 50 50 50 | -150 0 300 | 255 0 0 | 5 99 40
+object_sphere 10 | 0 0 0 | 50 50 50 | -150 0 400 | 111 111 111 | 5 99 40
+object_sphere 10 | 0 0 0 | 50 50 50 | -150 0 500 | 255 0 0 | 5 99 40
+object_sphere 10 | 0 0 0 | 50 50 50 | 150 -250 700 | 111 111 111 | 5 99 40
+object_sphere 10 | 0 0 0 | 50 50 50 | 150 -200 700 | 255 0 0 | 5 99 40
+object_sphere 10 | 0 0 0 | 50 50 50 | 150 -150 700 | 111 111 111 | 5 99 40
+object_sphere 10 | 0 0 0 | 50 50 50 | 150 -100 700 | 255 0 0 | 5 99 40
+object_sphere 10 | 0 0 0 | 50 50 50 | -150 0 600 | 111 111 111 | 5 99 40
+object_plane 00 | 3140 0 0 | 1 1 -1 | 0 0 1280 | 0 255 0 | 5 99 40
+object_plane 02 | 0 1570 0 | 1 1 -1 | 1280 0 0 | 111 111 111 | 5 99 40
+object_plane 00 | 0 -1570 0 | 1 1 -1 | -1280 0 0 | 0 255 0 | 5 99 40
+object_plane 00 | -1570 0 0 | 1 1 -1 | 0 1280 0 | 0 255 0 | 5 99 40
+object_plane 00 | 0 0 0 | 1 1 -1 | 0 0 -1280 | 255 255 0 | 5 99 40
+object_cylinder 20 | 1570 0 0 | 50 50 -1 | 400 0 800 | 99 99 0 | 5 99 40
+object_cylinder 20 | 1570 0 0 | 50 50 -1 | -400 0 800 | 99 99 0 | 5 99 40
+object_torus 40 | 1500 0 0 | 50 150 50 | 400 0 800 | 199 199 0 | 5 99 90
+object_cone 30 | 0 1570 0 | 1 1 4 | 0 500 1000 | 0 0 99 | 5 99 40

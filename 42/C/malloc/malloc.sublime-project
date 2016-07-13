@@ -1,0 +1,22 @@
+{
+    "folders":
+    [
+        {
+            "path": "~/code/meuh/42/malloc/hdezier"
+        }
+    ],
+
+    "settings":
+    {
+        "cc_include_options":
+        [
+            "-std=c++11",
+            "-D_DBG_",
+            "-I${project_path}/include",
+            "-isystem", "/usr/include",
+            "-isystem", "/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed",
+            "-isystem", "/usr/lib/llvm-3.6/lib/clang/3.6.0/include",
+            "-isystem", "/usr/include"
+        ]
+    }
+}

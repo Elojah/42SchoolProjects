@@ -1,0 +1,41 @@
+# Scene:
+# earth
+
+# Size:
+# width
+# heigh
+
+win_size 1024 768
+img_size 512 384
+
+# Cam:
+# rotation: x*1000 y*1000 z*1000 |
+# direction: x y z |
+# origin: x y z
+
+cam_1 0 0 0 | 0 0 0 | 0 0 -5800
+cam_2 0 -600 0 | 0 0 0 | 4050 0 -2800
+cam_3 0 600 0 | 0 0 0 | -250 0 -1300
+cam_4 0 -1570 0 | 0 0 0 | 4000 0 0
+
+# Light:
+# origin: x y z |
+# color: red green blue
+
+light_1 400 0 -1300 | 250 250 200
+#light_2 -400 0 -1300 | 100 100 250
+
+# Object:
+# o: 0=plane, 1=sphere, 2=cylinder, 3=cone, 4=torus, 5=mobius, 6=triangle
+# t: 0=none, 1=inverse, 2=reflection, 3=transparency
+# type: ot |
+# rotation: x*1000 y*1000 z*1000 |
+# scale: x y z |
+# translation: x y z |
+# color: red green blue |
+# constant: ambiant*100 diffuse*100 specular*100 |
+# texture: path.xpm
+
+obj_earth 10 | -2570 3040 0 | 638 636 638 | 0 0 100 | 0 | 5 99 4 | tex/earth.xpm
+obj_earth 13 | -2570 3040 0 | 650 650 650 | 0 0 100 | 00 00 100 | 0 90 0
+obj_moon 10 | -2570 3040 0 | 174 174 174 | 3844 0 0 | 0 | 5 50 4 | tex/moon.xpm

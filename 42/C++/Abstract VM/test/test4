@@ -1,0 +1,28 @@
+push int8(127)
+push int8(127)
+mul
+dump
+exit
+
+
+a.getPrecision int
+b.getPrecision double
+
+precision a > b
+a + b
+else
+b + a
+
+signed char c1
+signed char c2
+
+//s1 >> c1;
+//s2 >> c2;
+
+int8()
+oper+(b)
+	;
+
+double()
+oper+(a)
+	;

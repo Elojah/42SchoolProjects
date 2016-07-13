@@ -1,0 +1,44 @@
+# Scene:
+# triangle test
+
+# Size:
+# width
+# height
+
+win_size 1024 768
+img_size 512 384
+
+# Cam:
+# rotation: x*1000 y*1000 z*1000 |
+# direction: x y z |
+# origin: x y z
+
+cam_1 0 0 0 | 0 0 0 | 0 0 -500
+cam_2 -600 -600 0 | 0 0 0 | 200 -250 0
+cam_3 -600 600 0 | 0 0 0 | -200 -250 0
+cam_4 0 3140 0 | 0 0 0 | 0 0 500
+
+# Light:
+# origin: x y z |
+# color: red green blue
+
+light_1 0 0 -900 | 255 255 255
+
+# Object:
+# o: 0=plane, 1=sphere, 2=cylinder, 3=cone, 4=torus, 5=disk, 6=triangle
+# t: 0=none, 1=inverse, 2=reflection, 3=transparency
+# type: ot |
+# rotation: x*1000 y*1000 z*1000 |
+# scale: x y z |
+# translation: x y z |
+# color: red green blue |
+# constant: ambiant*100 diffuse*100 specular*100 |
+# texture: path.xpm
+
+object_plane 00 | 3140 0 0 | 1 1 -1 | 0 0 1000 | 0 200 0 | 5 99 91 | tex/wall_1.xpm
+object_triangle 60 | 0 | 0 | 0 | 0 0 0 | 100 0 0 | 0 100 0 | 0 0 -1 | 200 200 0 | 95 0 0
+object_triangle 62 | 0 | 0 | 0 | 0 0 0 | -100 0 0 | 0 100 0 | 0 0 -1 | 200 200 0 | 95 0 0
+object_plane 00 | 0 1570 0 | 1 1 -1 | 1000 0 0 | 0 200 0 | 5 99 91
+object_plane 00 | 0 -1570 0 | 1 1 -1 | -1000 0 0 | 0 200 0 | 5 99 91
+object_plane 00 | -1570 0 0 | 1 1 -1 | 0 1000 0 | 0 200 0 | 5 99 91
+object_plane 00 | 0 0 0 | 1 1 -1 | 0 0 -1000 | 0 200 200 | 5 99 91
