@@ -1,0 +1,13 @@
+#ifndef ${GUARD}_HPP
+# define ${GUARD}_HPP
+
+${INC_PARENTS}
+class ${NAME} ${INHERIT_PARENTS}
+{
+public:
+	virtual ~${NAME}(void) {}
+protected:
+private:
+};
+
+#endif

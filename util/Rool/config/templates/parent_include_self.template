@@ -1,0 +1,4 @@
+${PARENTS}
+# include "${CLASS_NAME}.hpp"
+class ${CLASS_NAME};
+^

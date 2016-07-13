@@ -1,0 +1,72 @@
+{
+	"auto_complete_selector": "source, comment, text.plain, meta.tag, punctuation.definition.tag.begin",
+	"auto_match_enabled": true,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Leeios/Leeios.tmTheme",
+	"detect_indentation": true,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "Consolas",
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": true,
+	"ignored_packages":
+	[
+		"C",
+		"C++",
+		"Makefile",
+		"Vintage"
+	],
+	"material_theme_accent_indigo": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_separator": true,
+	"overlay_scroll_bars": "enabled",
+	"remember_open_files": true,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"show_minimap": true,
+	"smart_indent": true,
+	"tab_size": 4,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"trailing_spaces_include_current_line": false,
+	"translate_spaces_to_tabs": true,
+	"use_tab_stops": true,
+	"word_separators": true,
+	"word_wrap": false
+}

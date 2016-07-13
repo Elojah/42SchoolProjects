@@ -1,0 +1,24 @@
+#include "${CLASS_NAME}.hpp"
+
+${CLASS_NAME}::${CLASS_NAME}(void) {
+}
+
+${CLASS_NAME}::${CLASS_NAME}(${CLASS_NAME} const &src) {
+	if (this != &src)
+		*this = src;
+}
+
+${CLASS_NAME}::~${CLASS_NAME}(void) {
+}
+
+${CLASS_NAME}		&${CLASS_NAME}::operator=(${CLASS_NAME} const &rhs) {
+	if (this != &rhs) {
+		;
+	}
+	return (*this);
+}
+
+std::ostream&	operator<<(std::ostream& stream, ${CLASS_NAME} const &s) {
+	stream << "" << std::endl;
+	return (stream);
+}

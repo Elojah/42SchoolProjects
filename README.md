@@ -1,2 +1,2 @@
-# 42SchoolProjects
-School &amp; personals projects
+# Meuh2.0
+Mooooouh

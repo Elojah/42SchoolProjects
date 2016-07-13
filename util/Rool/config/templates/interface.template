@@ -1,0 +1,12 @@
+#ifndef ${INC_GUARD}_H
+# define ${INC_GUARD}_H
+
+class ${CLASS_NAME}
+{
+public:
+	virtual ~${CLASS_NAME}(void){}
+protected:
+private:
+};
+
+#endif

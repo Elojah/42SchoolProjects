@@ -1,0 +1,9 @@
+; -------------
+; sample.avm -
+; -------------
+
+; Test 0
+push int8(17)
+push int8(56)
+div
+dump

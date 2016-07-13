@@ -1,0 +1,11 @@
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+boolthis tha thui tholp the this llll hhhhh g
+
+}

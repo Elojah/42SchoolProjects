@@ -1,0 +1,55 @@
+{
+	"main_constructor": {// Add the map to record and send to commmands
+		"name": "source",
+		"dir": "src",
+		"sub_tree" : true,
+		"model" : "src",
+		"ext" : "cpp",
+		"construction": {
+			"auto": false,
+			"chain_construction": ["include"],
+			"chain_actions": [
+				{
+					"type": "write",
+					"file": "Makefile",
+					"what": "CLASS_NAME",
+					"where": "CLASS"
+				}
+			]
+		}
+	},
+	"one": [
+		{
+			"name": "Makefile",
+			"dir": ".",
+			"model": "Makefile",
+			"ext": "",
+			"construction": {
+				"auto": true
+			}
+		},
+		{
+			"name": "main",
+			"dir": "src",
+			"model": "main",
+			"ext": "cpp",
+			"construction": {
+				"auto": true
+			}
+		},
+	],
+	"multi": [
+		{
+			"name": "headers",
+			"dir": "include",
+			"sub_tree" : false,
+			"model" : "include",
+			"ext" : "hpp",
+			"construction": {
+				"auto": false
+			}
+		}
+	],
+	"dirs" : ["config", "test", "util", "src", "include"],// src & include shouldnt be mandatory
+	"config_dir": "./config"
+}

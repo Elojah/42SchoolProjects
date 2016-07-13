@@ -1,0 +1,72 @@
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool			FileScanner::isScannableFile(char const *name) {
+bool
+
+}
+
+void			FileScanner::scanFile(char const *filename) {
+	std::string		line;
+	std::ifstream	ifs;
+
+	ifs.open(filename);
+	if (!ifs) {= 0; i < lenExt; ++i) {
+		if (name[len - lenExt + i] != extension[i]) {
+			return (false);
+		}
+	}= 0; i < lenExt; ++i) {
+		if (name[len - lenExt + i] != extension[i]) {
+			return (false);
+		}
+	}= 0; i < lenExt; ++i) {
+		if (name[len - lenExt + i] != extension[i]) {
+			return (false);
+		}
+	}
+		return ;
+}
+
+void			FileScanner::scanFile(char const *filename) {
+	std::string		line;= 0; i < lenExt; ++i) {
+		if (name[len - lenExt + i] != extension[i]) {
+			return (false);
+		}
+	}
+	std::ifstream	ifs;
+
+	ifs.open(filename);
+	if (!ifs) {
+		return ;
+}
+
+void			FileScanner::scanFile(char const *filename) {
+	std::string		line;
+	std::ifstream	ifs;
+
+	ifs.open(filename);
+	if (!ifs) {
+		return ;
